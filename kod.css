@@ -1,0 +1,294 @@
+*{
+    margin: 0px auto;
+
+    box-sizing: border-box;
+
+}
+body
+{
+    margin: 0;
+    padding:0;
+    height: 100vh;
+    align-items: center;
+    background:#eee;
+    display: flex;
+    justify-content: center;
+}
+
+.full
+{width: 100%;
+    height: 100%;
+    position: absolute;
+}
+.navbar
+{
+    background: white;
+    width: 100%;
+    height: 135px;
+
+}
+.navbar1
+{
+    width: 18%;
+    height: 135px;
+    position: absolute;
+    margin-left:0px;
+
+}
+.navbar1 img /*codex wekli*/
+{
+    width: 100%;
+    height: 100%;
+    border-color:black;
+    border-radius: 10%;
+    margin-left: 50px;
+}
+.navbar2
+{
+    width: 82%;
+    height: 135px;
+}
+.navbar2 ul
+{
+    margin-left: 500px;
+    color: black;
+}
+
+
+.navbar2 ul li
+{
+    list-style-type: none;
+    margin-right: 70px;
+    float: left;
+    line-height: 150px;
+    color: black;
+
+}
+.navbar2 ul li  a
+{
+    text-decoration: none;
+    color: black;
+    font-family: "Candara",sans-serif;
+    box-shadow: 0 0 15px yellow;
+    font-size: 20px;
+
+}
+.navbar ul li a:hover
+{
+    color: red;
+}
+.navbar2 ul li b
+{ 	display: inline-block;
+    text-decoration: none;
+    background: none;
+    color: #fff;
+    padding: 20px 0px;
+    font-size: 20px;
+    font-family: "Candara",sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+    margin: 20px;
+    transition: 0.8s;
+    position: relative;
+    overflow: hidden;
+
+}
+.btn
+{
+    background: yellow;
+    border-radius: 30px;
+    text-align: right;
+    width: 140px;
+    padding-right:20px;
+    border:2px solid black;
+    box-shadow:0 0 15px yellow; }
+/*border:2px dashed black;*/
+
+.btn:hover
+{
+    color: red;
+
+}
+.main
+{width: 1640px;
+    height: 700px;
+    background-color: #AED6F1;
+
+}
+.qutu
+{
+    font-family: "Candara", sans-serif;
+    width: 360px;
+    overflow: hidden;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+    display: flex;
+    flex-direction: column;
+    float: left;
+    margin:70px 30px 0 130px;
+}
+
+.qutu-wekil
+{
+    width: 100%;
+    height: 160px;
+    border-top-left-radius: 20px;
+    border-top-right-radius:20px;
+    object-fit: cover;
+}
+.profil-wekil
+{
+    z-index: 1;
+    width: 120px;
+    height: 350px;
+    position: relative;
+    margin-top:-75px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    transition-duration: 0.4s;
+
+}
+.text h3
+{
+    font-size: 25px;
+    text-align: center;
+    margin: 0;
+
+}
+.text p
+{
+    font-size: 16px;
+    text-align: justify;
+    padding: 0 20px 5px 20px;
+}
+.icons
+{
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 30px;
+}
+.icons a
+{
+    text-decoration: none;
+    font-size: 20px;
+    color: #0ABDE3;
+    padding: 0 16px;
+
+}
+
+.icons a:hover
+{
+    color: #000;
+
+}
+.footer
+{
+    width:  100%;
+    height: auto;
+    background: rgb(60, 60, 60);
+    padding:20px 0px;
+    margin:auto;
+
+}
+
+.footer-icons
+{
+    width: 100%;
+    height: auto;
+    margin: auto;
+}
+
+.footer-icons ul
+{
+    margin:0px;
+    padding: 0px;
+    text-align: center;
+
+}
+.footer-icons ul li
+{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    margin: 0px  10px;
+    border-radius: 100%;
+    background: #ff0;
+}
+.footer-icons ul li a
+{
+    color: rgba(60,60,60);
+    font-size: 25px;
+    display: block;
+
+}
+.footer-icons ul li a i
+{
+    line-height: 50px;
+
+}
+.footer-text
+{
+    width: 100%;
+    height: auto;
+    margin: auto;
+    margin-top: 25px;
+
+}
+.footer-text ul
+{
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+
+}
+.footer-text ul li
+{
+    display: inline-block;
+    margin:0px 20px;
+
+}
+
+.footer-text ul li a
+{
+    font-family:arial;
+    font-size: 15px;
+    font-weight: 600;
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+
+.footer-text1
+{
+    width: 100%;
+    height: auto;
+    margin: auto;
+    margin-top: 15px;
+
+}
+.footer-text1 ul
+{
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+
+}
+.footer-text1 ul li
+{
+    display: inline-block;
+    margin:0px 20px;
+
+}
+
+.footer-text1 ul li a
+{
+    font-family:arial;
+    font-size: 15px;
+    font-weight: 600;
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+}
